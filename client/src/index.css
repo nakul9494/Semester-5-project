@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Montserrat", sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+p{
+  font-size: 16px !important;
+}
+
+.navbar{
+  background-color: black !important;
+  padding-top: 0.005%;
+  padding-bottom: 0.005%;
+}
+
+.nav-link {
+  
+  text-decoration: none;
+  color: white; /* Default link color */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.nav-link:hover {
+  color: #00eeff; /* Change color on hover */
+  animation: bounce 0.5s ease; /* Apply bounce animation on hover */
+}
+
+
+.navbar-brand {
+  
+  font-size: 24px; /* Adjust font size as needed */
+  font-weight: bold; /* Make the font bold */
+  color: #716767; /* Default text color */
+  text-decoration: none; /* Remove underline */
+  transition: all 0.3s ease; /* Smooth transition for effects */
+}
+
+.navbar-brand{
+  /*transform: rotate(10deg); Example effect - rotate on hover */
+  color: #fefefe; /* Change color on hover */
+  text-shadow: 2px 2px 4px #716b6b; /* Add shadow on hover */
+  margin-left: 10px;
+}
+
+.navbar-nav{
+  margin-left: auto !important;
+}
+
+.nav-item {
+  margin-right: 20px; /* Adjust spacing between items */
+}
+
+.nav-link:hover {
+  color: #00eeff; /* Change color on hover */
+  animation: bounce 0.5s ease; /* Apply bounce animation on hover */
+}
+@keyframes bounce {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+
+.smallimg{
+  display:flex;
+  width: 300px;
+  height: 200px;
+  border-radius: 5px !important;
+
+}
+h1{
+  font-size: 30px;
+}
+/*.btn{
+  background-color: black;
+  color: white !important;
+  box-shadow: none;
+  border-radius: 10px;
+}*/
+
+.bs{
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.bigimg{
+  height: 400px;
+  border-radius: 25px;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.btn {
+  position: relative;
+  display: inline-block;
+  margin: 15px;
+  padding: 5px 10px; /* Reduced size */
+  text-align: center;
+  font-size: 20px; /* Reduced font size */
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: black; /* Initial text color */
+  background: white; /* Initial background color */
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border: 2px solid black; /* Initial border color */
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0 black; /* Initial box shadow color */
+}
+
+.btn:hover {
+  color: white; /* Hover text color */
+  box-shadow: inset 0 -100px 0 0 black; /* Hover box shadow color */
+}
+
+.btn:active {
+  transform: scale(0.9);
+}
+
+input , select,.ant-picker{
+  box-shadow: none !important;
+  margin-top: 10px;
+  border: 1.5px solid black !important;
+  width: 100% !important;
+}
+
+h2{
+  font-size: 30px;
+  padding: 10px;
+  font-weight: bold !important;
+  text-align: center;
+}
+
+.hoverText {
+  transition:
+    0.35s font-weight,
+    0.35s color;
+}
+
+.hoverText:hover {
+  font-weight: 900;
+  color: rgb(238, 242, 255);
+}
+
+/* To the right */
+.hoverText:hover + .hoverText {
+  font-weight: 500;
+  color: rgb(199, 210, 254);
+}
+
+.hoverText:hover + .hoverText + .hoverText {
+  font-weight: 300;
+}
+
+/* To the left */
+.hoverText:has(+ .hoverText:hover) {
+  font-weight: 500;
+  color: rgb(199, 210, 254);
+}
+
+.hoverText:has(+ .hoverText + .hoverText:hover) {
+  font-weight: 300;
+}

@@ -1,0 +1,62 @@
+[
+    {
+      "name": "Green leaf resort Goa- Rooms with Private Pool",
+      "maxcount": 4,
+      "phonenumber": 1234567890,
+      "rentperday": 10000,
+      "imageurls": [
+        "https://r1imghtlak.ibcdn.com/3c2f6d26975111ee9aa00a58a9feac02.jpeg",
+        "https://r1imghtlak.ibcdn.com/01bb369e36a211eeb28b0a58a9feac02.jpg",
+        "https://r1imghtlak.ibcdn.com/dba2660236a211eebcfc0a58a9feac02.jpg"
+      ],
+      "currentbookings": [],
+      "type": "Deluxe",
+      "description": "A deluxe room with all amenities."
+    },
+    {
+      "name": "Taj Fort Aguada Resort & Spa, Goa",
+      "maxcount": 3,
+      "phonenumber": 9876543210,
+      "rentperday": 15000,
+      "imageurls": [
+        "https://r1imghtlak.ibcdn.com/1611f3b6237111e89e9c0a4cef95d023.jpg",
+        "https://r1imghtlak.ibcdn.com/1a5686d0237111e8b6270a4cef95d023.jpg",
+        "https://r2imghtlak.ibcdn.com/r2-mmt-htl-image/room-imgs/200706181440296181-18922-7135c522ae9b11e9ac290242ac110002.jpg",
+        "https://r1imghtlak.ibcdn.com/a419f2bc469f11ec88960a58a9feac02.jpg"
+      ],
+      "currentbookings": [],
+      "type": "Standard",
+      "description": "A standard room with basic amenities."
+    },
+    {
+      "name": "Radisson Goa Candolim",
+      "maxcount": 4,
+      "phonenumber": 5555555555,
+      "rentperday": 20000,
+      "imageurls": [
+        "https://r2imghtlak.ibcdn.com/r2-mmt-htl-image/htl-imgs/20070209145406915-06fc9594c6f811e4801d32e76f7e45c9.jpg",
+        "https://r1imghtlak.ibcdn.com/0d08ca94de6a11eb9ea50242ac110009.jpg",
+        "https://r2imghtlak.ibcdn.com/r2-mmt-htl-image/htl-imgs/20070209145406915-c9e0853ce00211eb9cdc0242ac110004.jpg",
+        "https://r2imghtlak.ibcdn.com/r2-mmt-htl-image/room-imgs/20070209145406915-681-81923ce0746611ed98cd0a58a9feac02.jpg"
+      ],
+      "currentbookings": [],
+      "type": "Suite",
+      "description": "A luxurious suite with premium amenities."
+    },
+    {
+      "name": "The Westin Goa",
+      "maxcount": 1,
+      "phonenumber": 4444444444,
+      "rentperday": 8000,
+      "imageurls": [
+        "https://r1imghtlak.ibcdn.com/7fae82ca6eef11eda6a40a58a9feac02.jpg",
+        "https://r1imghtlak.ibcdn.com/29559a1a962111eba3310242ac110002.jpg",
+        "https://r2imghtlak.ibcdn.com/r2-mmt-htl-image/htl-imgs/202104051135414186-2650cc6a2ac911eebca50a58a9feac02.jpg",
+        "https://r2imghtlak.ibcdn.com/r2-mmt-htl-image/htl-imgs/202104051135414186-2abf01fab2b311eebd4e0a58a9feac02.jpg"
+      ],
+      "currentbookings": [],
+      "type": "Single",
+      "description": "A cozy single room perfect for solo travelers."
+    }
+  ]
+  

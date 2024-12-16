@@ -1,0 +1,16 @@
+/* Custom styles for RangePicker */
+.custom-range-picker .ant-picker {
+    border: 2px solid #4CAF50; /* Change border color */
+    border-radius: 5px; /* Add border radius */
+    padding: 10px; /* Add padding */
+  }
+  
+  .custom-range-picker .ant-picker-input {
+    font-size: 16px; /* Change font size */
+    color: #333; /* Change text color */
+  }
+  
+  .custom-range-picker .ant-picker-suffix {
+    color: #4CAF50; /* Change the color of the calendar icon */
+  }
+  
